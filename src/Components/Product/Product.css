@@ -1,0 +1,37 @@
+.products-holder {
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  height: auto;
+  position: relative;
+  height: 608px;
+}
+.products-holder img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.product-info-including-img {
+  margin: 10px;
+}
+.product-info p {
+  margin: 5px;
+}
+
+.products-holder button {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: none;
+  background-color: #ffe0b3;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products-holder button p {
+  margin-right: 8px;
+}
+.products-holder button:hover {
+  background-color: orange;
+}

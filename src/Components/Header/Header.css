@@ -1,0 +1,14 @@
+.header-nav {
+  background-color: #1c2b35;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.header-nav a:hover {
+  color: bisque;
+}

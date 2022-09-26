@@ -1,0 +1,9 @@
+.products-page {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
