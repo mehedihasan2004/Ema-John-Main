@@ -1,0 +1,45 @@
+.review-item {
+  padding: 8px;
+  width: 571px;
+  display: flex;
+  border: 2px solid lightgray;
+  margin: 21px auto;
+  border-radius: 8px;
+}
+.review-item img {
+  width: 91px;
+  height: 91px;
+}
+.review-item-info {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.review-item-info p {
+  margin: 0;
+}
+.review-item-info h3 {
+  margin: 0;
+}
+.remove-btn {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(235, 87, 87, 0.3);
+}
+.remove-btn:hover {
+  background: rgba(235, 87, 87, 0.45);
+  cursor: pointer;
+}
+.remove-icon {
+  width: 37px;
+  height: 37px;
+  color: #eb5757;
+}
+.money {
+  color: #eb5757;
+  font-weight: bold;
+}

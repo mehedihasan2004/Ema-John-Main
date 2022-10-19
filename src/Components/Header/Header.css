@@ -4,11 +4,11 @@
   align-items: center;
   justify-content: space-around;
 }
-.header-nav a {
+.header-item {
   margin-left: 20px;
   text-decoration: none;
   color: #ffffff;
 }
-.header-nav a:hover {
+.header-item:hover {
   color: bisque;
 }
